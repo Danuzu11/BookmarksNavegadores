@@ -64,8 +64,7 @@ permissions:
 jobs:
   build_site:
     runs-on: ubuntu-latest
-    # CRÍTICO: Esto permite que el build lea los secretos del entorno "github-pages"
-    environment: github-pages 
+    environment: github-pages
     steps:
       - name: Checkout
         uses: actions/checkout@v4
