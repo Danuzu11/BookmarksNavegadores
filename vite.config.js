@@ -6,6 +6,6 @@ export default defineConfig({
     tailwindcss(),
   ],
   // Using relative base for better GitHub Pages compatibility
-  base: './',
-  // base: '/BookmarksNavegadores/',
+  //base: './',
+  base: '/BookmarksNavegadores/',
 })
