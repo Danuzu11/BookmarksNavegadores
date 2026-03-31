@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@theme {
+  --color-tertiary-container: #cda72f;
+  --color-inverse-surface: #dce1fb;
+  --color-surface-bright: #33394c;
+  --color-secondary-fixed-dim: #bcc7de;
+  --color-surface-container-low: #151b2d;
+  --color-secondary-fixed: #d8e3fb;
+  --color-on-secondary-container: #aeb9d0;
+  --color-secondary: #bcc7de;
+  --color-surface-dim: #0c1324;
+  --color-tertiary-fixed: #ffe08b;
+  --color-secondary-container: #3e495d;
+  --color-background: #0c1324;
+  --color-on-primary-container: #9d7d00;
+  --color-error-container: #93000a;
+  --color-primary: #e9c349;
+  --color-on-primary-fixed: #241a00;
+  --color-on-secondary: #263143;
+  --color-surface-variant: #2e3447;
+  --color-tertiary: #ebc349;
+  --color-outline-variant: #45464d;
+  --color-on-primary: #3c2f00;
+  --color-on-surface: #dce1fb;
+  --color-primary-fixed: #ffe088;
+  --color-surface-container-highest: #2e3447;
+  --color-inverse-primary: #735c00;
+  --color-surface-container-high: #23293c;
+  --color-surface-container-lowest: #070d1f;
+  --color-on-tertiary-container: #4f3e00;
+  --color-error: #ffb4ab;
+  --color-outline: #909097;
+  --color-surface: #0c1324;
+  --color-on-background: #dce1fb;
+  --color-surface-container: #191f31;
+  --color-on-surface-variant: #c6c6cd;
+  --color-on-error: #690005;
+  --color-primary-fixed-dim: #e9c349;
+  --color-on-tertiary-fixed-variant: #584400;
+  --color-tertiary-fixed-dim: #eac249;
+  --color-inverse-on-surface: #2a3043;
+  --color-surface-tint: #e9c349;
+  --color-on-secondary-fixed: #111c2d;
+  --color-on-tertiary-fixed: #241a00;
+  --color-on-tertiary: #3d2f00;
+  --color-primary-container: #1f1700;
+  --color-on-error-container: #ffdad6;
+  --color-on-secondary-fixed-variant: #3c475a;
+  --color-on-primary-fixed-variant: #574500;
+
+  --font-headline: "Noto Serif", serif;
+  --font-body: "Manrope", sans-serif;
+  --font-label: "Manrope", sans-serif;
+
+  --radius-default: 0.125rem;
+  --radius-lg: 0.25rem;
+  --radius-xl: 0.5rem;
+  --radius-full: 0.75rem;
+}
+
+@layer base {
+  body {
+    @apply bg-surface text-on-surface font-body overflow-x-hidden;
+  }
+}
+
+@layer components {
+    .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+    
+    .serif-display {
+        font-family: 'Noto Serif', serif;
+    }
+    
+    .gold-gradient-bg {
+        background: linear-gradient(45deg, #e9c349, #cda72f);
+    }
+    
+    .glass-effect {
+        backdrop-filter: blur(24px);
+        background-color: rgba(46, 52, 71, 0.8);
+    }
+
+    .card-transition {
+        @apply transition-all duration-300 hover:bg-surface-container-highest hover:translate-y-[-4px];
+    }
+}

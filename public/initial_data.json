@@ -1,0 +1,1023 @@
+{
+  "categories": [
+    "Barra de favoritos",
+    "Hostings",
+    "Cursos/Data programacion",
+    "Herramientas",
+    "APIS",
+    "IA",
+    "style",
+    "Embbeddings",
+    "Antecedentes",
+    "SC UlaImpulse",
+    "Paneles Administrativos Templates",
+    "estuduisito",
+    "videojuegos",
+    "Nueva carpeta",
+    "Hackaton",
+    "Tesis",
+    "elamigosOfficialsite"
+  ],
+  "bookmarks": [
+    {
+      "id": "bwtg76dal",
+      "title": "Hugging Face – The AI community building the future.",
+      "url": "https://huggingface.co/inference/get-started",
+      "category": "Hostings",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "sy5ary2zn",
+      "title": "Crontab.guru - The cron schedule expression generator",
+      "url": "https://crontab.guru/#0_0_*/3",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "tule0wi9y",
+      "title": "Cron Job Monitoring | Cronitor",
+      "url": "https://cronitor.io/cron-job-monitoring?utm_source=crontabguru&utm_campaign=cronitor_banner&utm_content=38",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "73n0b4tfw",
+      "title": "Lucide",
+      "url": "https://lucide.dev/",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "81b3gpsmk",
+      "title": "Next.js - shadcn/ui",
+      "url": "https://ui.shadcn.com/docs/installation/next",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "7aes7tmfl",
+      "title": "Neon Serverless Postgres — Ship faster",
+      "url": "https://neon.com/?gad_source=1&gad_campaignid=21329093217",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "w9ws6njxc",
+      "title": "Supabase | The Postgres Development Platform.",
+      "url": "https://supabase.com/",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "i7d0tubpw",
+      "title": "The Headless CMS + Backend for Every Custom Build",
+      "url": "https://directus.io/",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "fi5zan5ef",
+      "title": "Home – Figma",
+      "url": "https://www.figma.com/files/team/1266938964608708547/recents-and-sharing?fuid=1244095547167840206",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "0pvjt24rx",
+      "title": "FlutterFlow - Build high quality, customized apps quickly!",
+      "url": "https://www.flutterflow.io/",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "cm6r4zr7m",
+      "title": "Drizzle ORM - Why Drizzle?",
+      "url": "https://orm.drizzle.team/docs/overview",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "ksa3y16cd",
+      "title": "Railway",
+      "url": "https://railway.com/",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "6uwm3shqn",
+      "title": "AI Workflow Automation Platform &amp; Tools - n8n",
+      "url": "https://n8n.io/?ps_partner_key=ZTRmNmY5NmFjYTI2&ps_xid=sKjftbCy6yUac3&gsxid=sKjftbCy6yUac3&gspk=ZTRmNmY5NmFjYTI2&gad_source=1&gad_campaignid=23103606408&gbraid=0AAAABBtmDKZ71nprbK6Bk7FRW24cgRf4D",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "klotdxndv",
+      "title": "Framer: Create a professional website, free. No code website builder loved by designers.",
+      "url": "https://www.framer.com/?via=flnubqy&dub_id=nTNZeHyuArIMpEIl",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "h51lx8nym",
+      "title": "Rueda de colores, un generador de paletas de colores | Adobe Color",
+      "url": "https://color.adobe.com/es/create/color-wheel",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "jvruy2wtt",
+      "title": "Animated UI Components and Templates for React and TailwindCSS | Hover.dev",
+      "url": "https://www.hover.dev/",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "98hhcfddy",
+      "title": "TechRadar | the technology experts",
+      "url": "https://www.techradar.com/",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "y6zxfnclo",
+      "title": "apacha/OMR-Datasets: Colección de conjuntos de datos utilizados para el reconocimiento óptico de música",
+      "url": "https://github.com/apacha/OMR-Datasets",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "vaw8p6w4q",
+      "title": "Tone.js",
+      "url": "https://tonejs.github.io/",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "ebh3qoj8t",
+      "title": "Figma | La herramienta de diseño de interfaz colaborativo",
+      "url": "https://www.figma.com/es-la/",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "0pyeot0s0",
+      "title": "draw.io",
+      "url": "https://www.drawio.com/",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "g5ozhqq41",
+      "title": "React-Symbols - Beautifully File &amp; Folder Icons for your React projects.",
+      "url": "https://react-symbols.vercel.app/",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "jcc7ggn48",
+      "title": "Tabler Icons: 4950+ free vector icons for web design",
+      "url": "https://tabler.io/icons",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "8fu3ojkqo",
+      "title": "Sim - AI Agent Workflow Builder | Open Source Platform",
+      "url": "https://www.sim.ai/",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "7b24mjdpj",
+      "title": "Radix Icons",
+      "url": "https://www.radix-ui.com/icons",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "w9grj3r1r",
+      "title": "Streamlit • A faster way to build and share data apps",
+      "url": "https://streamlit.io/community",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "5r3cb8oym",
+      "title": "Render Dashboard",
+      "url": "https://dashboard.render.com/",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "1rz9gz6yg",
+      "title": "hubdev.tools - Developer Tools and Resources",
+      "url": "https://www.hubdev.tools/",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "foekv5rnx",
+      "title": "Introducing the File Search Tool in Gemini API",
+      "url": "https://blog.google/technology/developers/file-search-gemini-api/",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "nmjzn1j52",
+      "title": "Agent Garden – Vertex AI – Consola de Google Cloud",
+      "url": "https://console.cloud.google.com/vertex-ai/agents/agent-garden",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "gfm64e49j",
+      "title": "opacity - Effects - Tailwind CSS",
+      "url": "https://tailwindcss.com/docs/opacity",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "u7iguu0vo",
+      "title": "Tailwind CSS - Rapidly build modern websites without ever leaving your HTML.",
+      "url": "https://tailwindcss.com/",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "6xdp8pc52",
+      "title": "HTML Color Codes",
+      "url": "https://htmlcolorcodes.com/",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "yggjfgdbp",
+      "title": "Strapi - Open source Node.js Headless CMS 🚀",
+      "url": "https://strapi.io/",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "ymizq2jsm",
+      "title": "Radix UI",
+      "url": "https://www.radix-ui.com/",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "yvpp3x0la",
+      "title": "Push your ideas to the web | Netlify",
+      "url": "https://www.netlify.com/",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "j19ye8m9n",
+      "title": "Space Grotesk - Google Fonts",
+      "url": "https://fonts.google.com/specimen/Space+Grotesk",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "6bewvsrkj",
+      "title": "Colormind - the AI powered color palette generator",
+      "url": "http://colormind.io/",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "r2poum2aw",
+      "title": "jsDelivr - A free, fast, and reliable CDN for JS and open source",
+      "url": "https://www.jsdelivr.com/?query=tesseract",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "wun9wuul6",
+      "title": "Free Dashboard Icons - Download High-Quality UI &amp; App Icons",
+      "url": "https://dashboardicons.com/",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "wx6uktxaw",
+      "title": "All SVG Icons - Free and Open Source SVG Vector Icons | All SVG Icons",
+      "url": "https://allsvgicons.com/",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "76tpyy2fo",
+      "title": "superwhisper",
+      "url": "https://superwhisper.com/",
+      "category": "Herramientas",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "e11ediytg",
+      "title": "JSCamp | Bootcamp gratuito y completo de Programación con JavaScript",
+      "url": "https://www.jscamp.dev/",
+      "category": "Cursos/Data programacion",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "bgf3uhcz6",
+      "title": "(568) Crea un Dashboard Empresarial: Guía Paso a Paso con NextJS 14, React, Tailwind CSS, Shadcn, ClerkJS - YouTube",
+      "url": "https://www.youtube.com/watch?v=pA4hvzs_IeI",
+      "category": "Cursos/Data programacion",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "qrnb3mtlm",
+      "title": "Cursos de Programación JavaScript, React, Node.js | midudev | midudev | midudev",
+      "url": "https://midu.dev/cursos",
+      "category": "Cursos/Data programacion",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "rcsdj10ww",
+      "title": "Platzi: Cursos Online de programación, AI, data science y más",
+      "url": "https://platzi.com/",
+      "category": "Cursos/Data programacion",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "ffqaxv2xu",
+      "title": "Tool use with Live API  |  Gemini API  |  Google AI for Developers",
+      "url": "https://ai.google.dev/gemini-api/docs/live-tools?hl=es-419",
+      "category": "Cursos/Data programacion",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "r3wxeqgl0",
+      "title": "Generación de texto  |  Gemini API  |  Google AI for Developers",
+      "url": "https://ai.google.dev/gemini-api/docs/text-generation?hl=es-419#rest_2",
+      "category": "Cursos/Data programacion",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "b2txk7cef",
+      "title": "The ultimate guide to proper use of animation in UX | by Taras Skytskyi | UX Collective",
+      "url": "https://uxdesign.cc/the-ultimate-guide-to-proper-use-of-animation-in-ux-10bd98614fa9",
+      "category": "Cursos/Data programacion",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "djlxjdu0a",
+      "title": "(693) Next.js 16 + Strapi 5: Caché components, autenticación y despliegue gratis a producción - YouTube",
+      "url": "https://www.youtube.com/watch?v=VosHdPQr6nI",
+      "category": "Cursos/Data programacion",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "o39qm9kfu",
+      "title": "(693) Curso ASTRO 5: Server Islands, View Transitions + Aplicación DESDE CERO - YouTube",
+      "url": "https://www.youtube.com/watch?v=WHqZAXHZN_w",
+      "category": "Cursos/Data programacion",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "rg96ytpas",
+      "title": "Caché – SWR",
+      "url": "https://swr.vercel.app/docs/advanced/cache",
+      "category": "Cursos/Data programacion",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "gcoiihq8i",
+      "title": "(695) Curso Tailwind CSS 4 desde cero - YouTube",
+      "url": "https://www.youtube.com/watch?v=R5EXap3vNDA",
+      "category": "Cursos/Data programacion",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "tpboc8r7g",
+      "title": "Visual Studio Code for Education",
+      "url": "https://vscodeedu.com/",
+      "category": "Cursos/Data programacion",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "fti510asx",
+      "title": "Únete al equipo",
+      "url": "https://domus.global/es/join-us/",
+      "category": "Cursos/Data programacion",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "yurhe0ovx",
+      "title": "vitepress-openapi | PyDolarVenezuela API Docs",
+      "url": "https://docs.pydolarve.org/operations/get-api-v2-%7Bcurrency%7D-conversion.html",
+      "category": "APIS",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "p9mjgt8f2",
+      "title": "Dólares | DolarApi.com",
+      "url": "https://dolarapi.com/docs/venezuela/operations/get-dolares.html",
+      "category": "APIS",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "q4igz0vdc",
+      "title": "API Keys | Settings | OpenRouter",
+      "url": "https://openrouter.ai/workspaces/default/keys?utm_source=signup-success",
+      "category": "APIS",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "rrrcqlvnn",
+      "title": "Chat | Google AI Studio",
+      "url": "https://aistudio.google.com/prompts/new_chat",
+      "category": "IA",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "8p96jm58p",
+      "title": "Gemini API reference Developers",
+      "url": "https://ai.google.dev/api?hl=es-419&lang=python",
+      "category": "IA",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "8lp7uotnt",
+      "title": "(619) Tutorial CrewAI en Español. Aprende a Crear tu Propio Crew de Agente de IA. - YouTube",
+      "url": "https://www.youtube.com/watch?v=pcoXxDV6bSQ",
+      "category": "IA",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "xxo0qfub3",
+      "title": "Sora 2 is here | OpenAI",
+      "url": "https://openai.com/index/sora-2/",
+      "category": "IA",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "u3n47lmv8",
+      "title": "Microcontrollers and Industrial Computing Systems - NotebookLM",
+      "url": "https://notebooklm.google.com/notebook/5fa70c06-770a-4ddc-b993-abde0ce89c93",
+      "category": "IA",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "ss98wrwi8",
+      "title": "NotebookLM",
+      "url": "https://notebooklm.google.com/",
+      "category": "IA",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "pnyqyrl01",
+      "title": "Stitch - Design with AI",
+      "url": "https://stitch.withgoogle.com/",
+      "category": "IA",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "c3cajqx9f",
+      "title": "talco 5 estrellas - Buscar con Google",
+      "url": "https://www.google.com/search?q=talco+5+estrellas&oq=talco+5+estrellas&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIKCAEQABiABBiiBDIKCAIQABiABBiiBDIKCAMQABiABBiiBDIKCAQQABiABBiiBDIKCAUQABiABBiiBDIGCAYQLhhA0gEIMzM5OGowajGoAgCwAgA&sourceid=chrome&ie=UTF-8",
+      "category": "style",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "l5rksb9h5",
+      "title": "Talco Cinco Estrella 700g | MercadoLibre",
+      "url": "https://articulo.mercadolibre.com.ve/MLV-888134360-talco-cinco-estrella-700g-_JM",
+      "category": "style",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "mbbkb61zh",
+      "title": "OpenRouter",
+      "url": "https://openrouter.ai/",
+      "category": "IA",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "a2jjln5ry",
+      "title": "Milvus",
+      "url": "https://milvus.io/es/use-cases",
+      "category": "Embbeddings",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "ylfb3yygy",
+      "title": "Qdrant - Vector Database",
+      "url": "https://qdrant.tech/",
+      "category": "Embbeddings",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "eelzfpwb8",
+      "title": "Agenda de Trabajo David - Hojas de cálculo de Google",
+      "url": "https://docs.google.com/spreadsheets/d/1IuUw-C4nx9daHfBFLzArKIKhd0UmFzQr61Djj5Pu0rU/edit?gid=1098242309#gid=1098242309",
+      "category": "Barra de favoritos",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "6c2yxxs7n",
+      "title": "Sprite Sheet Animator",
+      "url": "https://is.si/animator/",
+      "category": "Barra de favoritos",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "2pokurj98",
+      "title": "Dashboard - CV Online.me",
+      "url": "https://my.cvonline.me/",
+      "category": "Barra de favoritos",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "ktszy0ugc",
+      "title": "Un grupo de investigación de la UMA desarrolla un ordenador capaz de componer música clásica",
+      "url": "https://www.lavanguardia.com/20120701/54319420135/un-grupo-de-investigacion-de-la-uma-desarrolla-un-ordenador-capaz-de-componer-musica-clasica.html",
+      "category": "Antecedentes",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "pg681b0du",
+      "title": "Musitek SmartScore Free Player",
+      "url": "https://www.musitek.com/mobile/",
+      "category": "Antecedentes",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "vf9qlygh5",
+      "title": "Microsoft PowerPoint - PFC_David_Carretero_Presentacion.pps",
+      "url": "https://e-archivo.uc3m.es/rest/api/core/bitstreams/e8fca34a-924f-42d9-b58a-3e2a0ef0416f/content",
+      "category": "Antecedentes",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "noqktp1w5",
+      "title": "(556) Proyecto MultiScore: Conversión automática de fuentes musicales a partituras digitales - YouTube",
+      "url": "https://www.youtube.com/watch?v=6VfLzlmT68Y",
+      "category": "Antecedentes",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "t6w3gn1pp",
+      "title": "Sistema de reconocimiento de partituras musicales",
+      "url": "https://e-archivo.uc3m.es/entities/publication/b34ad882-039d-4613-969d-aafd83ee35ac",
+      "category": "Antecedentes",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "oamd7twjl",
+      "title": "InformeFinal-v4.pdf",
+      "url": "https://ddd.uab.cat/pub/tfg/2020/tfg_286488/InformeFinal-v4.pdf",
+      "category": "Antecedentes",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "1lxwryosl",
+      "title": "Tecnologias_APR.pdf",
+      "url": "https://epsl.ujaen.es/sites/centro_epsl/files/uploads/Tecnologias_APR.pdf",
+      "category": "Antecedentes",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "xgdrxs704",
+      "title": "Software musical en la enseñanza-aprendizaje de los estudiantes de Música de la Universidad Nacional del Altiplano Puno",
+      "url": "http://www.scielo.org.pe/scielo.php?pid=S2219-71682021000100025&script=sci_abstract",
+      "category": "Antecedentes",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "ooxc0wu01",
+      "title": "Competencias_digitales_en_la_UNEARTE-libre.pdf",
+      "url": "https://d1wqtxts1xzle7.cloudfront.net/32949250/Competencias_digitales_en_la_UNEARTE-libre.pdf?1392050608=&response-content-disposition=inline%3B+filename%3DCompetencias_digitales_en_UNEARTE_MUSICA.pdf&Expires=1754288247&Signature=KMkREChLQYCcpsuvz-OvSIerXM7Y2fVPxYs9ag-XF4jP6sxCWbY19v4rkomuTgll3bCMtMJtNLSr6lRqqaP3M6myKlojY~cInvpiiHS6TV9lzjh4DJB2lmeJmpAzwiuIzWO4ANykO5ni1gdSXW~KEgmH~JscG-ozYUmbwpqn61b4MQ8uGLwpfCruhbuewPY1Cl2Xwr2n~I4RoOI8w~XF5psz0erm5QNXZ5dfwq34y69u1fU9Pt~PKjUESE1k~Sm~uohGCxFIaWscYRJS1tlHPOA15LFDjKSN3GGJSJomSSn~Vd~1Uuj9GiqwIDBC0n6C1z32oCkSP4BXSwD2BA~B-w__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA",
+      "category": "Antecedentes",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "d79fbtkdy",
+      "title": "OpenArt",
+      "url": "https://openart.ai/subscriptions",
+      "category": "Antecedentes",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "nbfw3qly8",
+      "title": "(PDF) The Challenge of Optical Music Recognition",
+      "url": "https://www.researchgate.net/publication/220147775_The_Challenge_of_Optical_Music_Recognition",
+      "category": "Antecedentes",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "5lz3ensem",
+      "title": "MUSITEK - Music Scanning Software",
+      "url": "https://www.musitek.com/about.html",
+      "category": "Antecedentes",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "zfz081xeq",
+      "title": "programa de notación musical finale - Finale",
+      "url": "https://www.finalemusic.com/es/",
+      "category": "Antecedentes",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "z4e98af1p",
+      "title": "Sibelius - Notation Software - Avid",
+      "url": "https://www.avid.com/sibelius",
+      "category": "Antecedentes",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "x7x5w7ma8",
+      "title": "MultiScore",
+      "url": "https://sites.google.com/view/multiscore-project",
+      "category": "Antecedentes",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "nizmlwkbh",
+      "title": "¡Staff Wars 2 regresa! ¡Y funciona en Windows!",
+      "url": "https://musicedmagic.com/tales-from-the-podium/11743-staff-wars-2-returns-and-it-works-on-windows",
+      "category": "Antecedentes",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "fv5zc3ypz",
+      "title": "Note Rush - Learn to Read Music",
+      "url": "https://www.noterushapp.com/",
+      "category": "Antecedentes",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "sfcbo6mdt",
+      "title": "Redalyc.Teoría de la Autodeterminación: una revisión teórica",
+      "url": "https://www.redalyc.org/pdf/4835/483555396010.pdf",
+      "category": "Antecedentes",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "75nxcb82d",
+      "title": "(PDF) The Motivational Pull of Video Games: A Self-Determination Theory Approach",
+      "url": "https://www.researchgate.net/publication/225998888_The_Motivational_Pull_of_Video_Games_A_Self-Determination_Theory_Approach",
+      "category": "Antecedentes",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "8e2cw1y5u",
+      "title": "(PDF) Intelligent Tutoring Systems for the New Learning Infrastructure",
+      "url": "https://www.researchgate.net/publication/314502760_Intelligent_Tutoring_Systems_for_the_New_Learning_Infrastructure",
+      "category": "Antecedentes",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "kjfrku1e5",
+      "title": "Not Another Inventory, Rather a Catalyst for Reflection - Fleming - 1992 - To Improve the Academy - Wiley Online Library",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/j.2334-4822.1992.tb00213.x",
+      "category": "Antecedentes",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "klioqv6im",
+      "title": "(586) Crea Google Forms desde python (2023) - YouTube",
+      "url": "https://www.youtube.com/watch?v=Ub55viQdkUk",
+      "category": "SC UlaImpulse",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "xb0xmv7h0",
+      "title": "REST Resource: forms  |  Google Forms  |  Google for Developers",
+      "url": "https://developers.google.com/workspace/forms/api/reference/rest/v1/forms?hl=es-419",
+      "category": "SC UlaImpulse",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "fzmnfb79u",
+      "title": "Ula Pulso | Trello",
+      "url": "https://trello.com/b/lVtKC9xd/ula-pulso",
+      "category": "SC UlaImpulse",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "e9yi28dri",
+      "title": "Neon Serverless Postgres — Ship faster",
+      "url": "https://neon.com/",
+      "category": "SC UlaImpulse",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "pgivfoea1",
+      "title": "Credenciales – APIs y servicios – Proyecto Form API – Consola de Google Cloud",
+      "url": "https://console.cloud.google.com/apis/credentials?authuser=1&project=proyecto-form-api",
+      "category": "SC UlaImpulse",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "v7g0dqh4p",
+      "title": "Horizontal | Upcube - Admin &amp; Dashboard Template",
+      "url": "https://themesdesign.in/upcube/layouts/layouts-horizontal-dark.html",
+      "category": "Paneles Administrativos Templates",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "rc3otnlgw",
+      "title": "Asistente Empresarial - WorkFlowy",
+      "url": "https://workflowy.com/s/asistente-empresaria/eY7aCoGpyAcIN2Vo#/7b8fa48a77d6",
+      "category": "Paneles Administrativos Templates",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "iu41jbjqt",
+      "title": "Curso de SQL Server",
+      "url": "https://app.edutin.com/classroom?course_id=12597&source_id=168953",
+      "category": "estuduisito",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "2ykfmy5es",
+      "title": "Pixelorama de Orama Interactive, OverloadedOrama",
+      "url": "https://orama-interactive.itch.io/pixelorama",
+      "category": "videojuegos",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "6h3wag0h9",
+      "title": "Millones de Imágenes PNG, Fondos y Vectores Para Descarga Gratuita | Pngtree",
+      "url": "https://es.pngtree.com/",
+      "category": "videojuegos",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "djdnvylwu",
+      "title": "Conversor de imágenes gratuito en línea | Shutterstock",
+      "url": "https://www.shutterstock.com/es/image-converter?pl=PPC_GOO_AR_PM-&cr=c&kw=&ds_eid=4103743131&utm_source=GOOGLE&utm_campaign=CO%3DRoAMER_LG%3DES_BU%3DIMG_AD%3DCAT_TS%3Dlggeneric_RG%3DAMER_AB%3DACQ_CH%3DSEM_OG%3DCONV_PB%3DGoogle_FF%3DPmax&ds_cid=22588344688&ds_ag=&ds_agid=&utm_medium=cpc&gclsrc=aw.ds&gad_source=1&gad_campaignid=22584694769&gbraid=0AAAAAD9FeHAdLqdVRticp5LxfcC9hUfA1&dd_referrer=https%3A%2F%2Fwww.google.com%2F",
+      "category": "videojuegos",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "nws87lcnw",
+      "title": "Creación de un proyecto de .NET MAUI en Visual Studio - Training | Microsoft Learn",
+      "url": "https://learn.microsoft.com/es-es/training/modules/build-mobile-and-desktop-apps/3-create-a-maui-project-visual-studio",
+      "category": "videojuegos",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "wrtflm56a",
+      "title": "(651) Cómo Hacer PIXEL ART - ¡Guía para Principiantes!🚀 - YouTube",
+      "url": "https://www.youtube.com/watch?v=k3wVU9aWEy0&list=PLO93miOntN62WphCexR7LG_MNoqukSrRH",
+      "category": "videojuegos",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "hlcm18z64",
+      "title": "Pixelorama by Orama Interactive, OverloadedOrama",
+      "url": "https://orama-interactive.itch.io/pixelorama?download",
+      "category": "videojuegos",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "d418cchwm",
+      "title": "(651) Pixelorama Tutorial/How to Export Sprite Sheet. Cómo exportar hoja de Sprite/ Pixel Art - YouTube",
+      "url": "https://www.youtube.com/watch?v=zkNVm24Ya74",
+      "category": "videojuegos",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "46u4j3zoa",
+      "title": "Manual-responsive-web-design.pdf",
+      "url": "https://perio.unlp.edu.ar/catedras/tpm/wp-content/uploads/sites/125/2025/03/Manual-responsive-web-design.pdf",
+      "category": "Nueva carpeta",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "4vlu5z2bo",
+      "title": "workshop-november-4-2025 - Presentaciones de Google",
+      "url": "https://docs.google.com/presentation/d/e/2PACX-1vR74YVyQUYMPF2EDtYIg8_qkHK_4aZWV22qgoSz8Yj3TC3Sv29-lRyoTETbhy4EPQksnEdP-R7yg4Fx/pub?slide=id.g385aa607a83_0_32",
+      "category": "Hackaton",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "frlfxkqtm",
+      "title": "PropuestasProyectosDeGrado - Google Drive",
+      "url": "https://drive.google.com/drive/folders/13t7dQRMGec2G1oy9FrKbYwQF20eUTyMq",
+      "category": "Barra de favoritos",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "h8z8j7ky0",
+      "title": "musesscore",
+      "url": "https://musescore.com/user/6872121/scores/1835476",
+      "category": "Tesis",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "bzsa10h0n",
+      "title": "Durable Execution Solutions | Temporal",
+      "url": "https://temporal.io/",
+      "category": "Tesis",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "6uvzb38qj",
+      "title": "Redis - The Real-time Data Platform",
+      "url": "https://redis.io/",
+      "category": "Tesis",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "475j1f6gm",
+      "title": "Nueva pestaña",
+      "url": "chrome://newtab/",
+      "category": "Tesis",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "a39zansjh",
+      "title": "Pricing - Pipedream",
+      "url": "https://pipedream.com/pricing?l=30",
+      "category": "Tesis",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "hdph8oa3u",
+      "title": "Kaggle Notebook Editor",
+      "url": "https://www.kaggle.com/code/danalexsoft/notebook3aeec9d805/edit",
+      "category": "Tesis",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "m5inhbrn4",
+      "title": "Te damos la bienvenida a Colab - Colab",
+      "url": "https://colab.research.google.com/#scrollTo=Wf5KrEb6vrkR",
+      "category": "Tesis",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "bjp3krvvn",
+      "title": "BreezeWhite/oemer: End-to-end Optical Music Recognition (OMR) system. Transcribe phone-taken music sheet image into MusicXML, which can be edited and converted to MIDI.",
+      "url": "https://github.com/BreezeWhite/oemer",
+      "category": "Tesis",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "710t8yrl5",
+      "title": "N8n Solfeus - a Hugging Face Space by Danuzu11",
+      "url": "https://huggingface.co/spaces/Danuzu11/n8n-solfeus",
+      "category": "Tesis",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "3jzad93iv",
+      "title": "Crear Agente Conversaccional de CodePonce para Atención al Cliente y Ventas Conectar a Whatsaap + Ch... - WorkFlowy",
+      "url": "https://workflowy.com/#/d2ded03298aa",
+      "category": "Barra de favoritos",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "eyrh6ed1c",
+      "title": "Workflows - n8n",
+      "url": "https://danuzu11.app.n8n.cloud/projects/hGaC6D5Yo37h49WM/workflows",
+      "category": "Barra de favoritos",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "bvlc96u7h",
+      "title": "ElAmigos official site",
+      "url": "https://elamigos.site/",
+      "category": "elamigosOfficialsite",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "id": "0rgne0col",
+      "title": "Addons | Turtle WoW Wiki | Fandom",
+      "url": "https://turtle-wow.fandom.com/wiki/Addons",
+      "category": "elamigosOfficialsite",
+      "description": "",
+      "icon": ""
+    }
+  ]
+}
