@@ -7,5 +7,5 @@ export default defineConfig({
   ],
   // Using relative base for better GitHub Pages compatibility
   // base: './',
-  base: '/BookmarksNavegadores/',
+  base: '/BookmarksNavegadores',
 })
