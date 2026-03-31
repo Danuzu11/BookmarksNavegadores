@@ -1,6 +1,10 @@
 import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  // Replace with your repository name if it's different
-  base: '/',
+  plugins: [
+    tailwindcss(),
+  ],
+  // Using relative base for better GitHub Pages compatibility
+  base: './',
 })

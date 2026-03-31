@@ -1,3 +1,5 @@
+import './style.css';
+
 // Icons mapping based on typical categories
 const ICON_MAP = {
     'General Library': 'library_books',
