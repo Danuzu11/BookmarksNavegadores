@@ -1,14 +1,21 @@
-// Icons mapping based on typical categories (you can expand this)
+// Icons mapping based on typical categories
 const ICON_MAP = {
-    'Work': 'work_outline',
-    'Entertainment': 'theaters',
-    'News': 'newspaper',
-    'Personal': 'person_2',
-    'Development': 'terminal',
-    'Design': 'palette',
-    'Hostings': 'cloud_queue',
-    'APIS': 'api',
-    'IA': 'smart_toy',
+    'General Library': 'library_books',
+    'Hosting & Infrastructure': 'cloud_queue',
+    'Education & Courses': 'school',
+    'Developer Tools': 'build',
+    'API Resources': 'api',
+    'Artificial Intelligence': 'auto_awesome',
+    'Design & Styling': 'palette',
+    'Vector & ML': 'hub',
+    'Thesis & OMR': 'history_edu',
+    'Ula Pulse Project': 'pulse',
+    'UI Dashboards & Templates': 'dashboard',
+    'Game Design & Assets': 'sports_esports',
+    'Entertainment & Games': 'videogame_asset',
+    'Academic & SQL': 'history_edu',
+    'Background Research': 'fact_check',
+    'Hackaton': 'event',
     'default': 'bookmark'
 };
 
@@ -27,21 +34,29 @@ let state = {
 // --- API Services ---
 
 async function fetchCollection() {
+    setStatus('Synchronizing with cloud archive...');
     try {
         const response = await fetch(API_URL, {
             headers: { 'X-Master-Key': MASTER_KEY }
         });
         const result = await response.json();
-        // Result structure: { record: { categories: [], bookmarks: [] } }
-        return result.record;
+        
+        if (result.record && result.record.bookmarks) {
+            state.bookmarks = result.record.bookmarks;
+            state.categories = result.record.categories || [];
+            setStatus('Ready.');
+        } else {
+            setStatus('Archive is empty or misconfigured.');
+        }
+        
     } catch (err) {
         console.error('Failed to fetch from JSONBin:', err);
-        return null;
+        setStatus('Connection error.');
     }
 }
 
 async function updateCollection(data) {
-    setStatus('Archiving changes...');
+    setStatus('Preserving changes in cloud...');
     try {
         const response = await fetch(API_URL, {
             method: 'PUT',
@@ -51,12 +66,12 @@ async function updateCollection(data) {
             },
             body: JSON.stringify(data)
         });
-        setStatus('Preserved in cloud.');
-        setTimeout(() => setStatus(''), 3000);
+        setStatus('Collection preserved.');
+        setTimeout(() => setStatus('Ready.'), 3000);
         return response.ok;
     } catch (err) {
         console.error('Failed to update JSONBin:', err);
-        setStatus('Error preservation failed.');
+        setStatus('Preservation failed.');
         return false;
     }
 }
@@ -72,7 +87,6 @@ function renderCategories() {
     const list = document.getElementById('category-list');
     const existing = list.querySelectorAll('[data-category]');
     
-    // Clear dynamic categories (keep "All Archives")
     existing.forEach(el => {
         if (el.dataset.category !== 'all') el.remove();
     });
@@ -80,7 +94,7 @@ function renderCategories() {
     state.categories.sort().forEach(cat => {
         const icon = ICON_MAP[cat] || ICON_MAP['default'];
         const a = document.createElement('a');
-        a.className = `flex items-center gap-4 text-on-surface-variant opacity-70 hover:opacity-100 hover:bg-surface-container-high hover:text-primary pl-6 py-3 transition-all text-sm font-medium tracking-wide cursor-pointer ${state.currentCategory === cat ? 'border-l-2 border-primary !opacity-100 !text-on-surface' : ''}`;
+        a.className = `flex items-center gap-4 text-on-surface-variant opacity-70 hover:opacity-100 hover:bg-surface-container-high hover:text-primary pl-6 py-3 transition-all text-sm font-medium tracking-wide cursor-pointer ${state.currentCategory === cat ? 'border-l-2 border-primary !opacity-100 !text-on-surface bg-surface-container-high/40' : ''}`;
         a.href = '#';
         a.dataset.category = cat;
         a.innerHTML = `
@@ -96,12 +110,11 @@ function renderCategories() {
         list.appendChild(a);
     });
 
-    // Update "All Archives" active state
     const allBtn = list.querySelector('[data-category="all"]');
     if (state.currentCategory === 'all') {
-        allBtn.classList.add('border-l-2', 'border-primary', '!opacity-100', '!text-on-surface');
+        allBtn.classList.add('border-l-2', 'border-primary', '!opacity-100', '!text-on-surface', 'bg-surface-container-high/40');
     } else {
-        allBtn.classList.remove('border-l-2', 'border-primary', '!opacity-100', '!text-on-surface');
+        allBtn.classList.remove('border-l-2', 'border-primary', '!opacity-100', '!text-on-surface', 'bg-surface-container-high/40');
     }
 }
 
@@ -117,7 +130,7 @@ function renderBookmarks() {
     });
 
     if (filtered.length === 0) {
-        grid.innerHTML = `<div class="col-span-full text-center py-20 text-on-surface-variant">No manuscripts found in this collection.</div>`;
+        grid.innerHTML = `<div class="col-span-full text-center py-20 text-on-surface-variant">Selected archive is empty.</div>`;
         return;
     }
 
@@ -137,7 +150,7 @@ function renderBookmarks() {
                 </div>
             </div>
             <h3 class="title-md font-bold text-on-surface mb-2 truncate" title="${b.title}">${b.title}</h3>
-            <p class="text-sm text-on-surface-variant mb-6 line-clamp-2">${b.description || 'No description provided.'}</p>
+            <p class="text-sm text-on-surface-variant mb-6 line-clamp-2">${b.description || b.url.substring(0, 50) + '...'}</p>
             <a class="text-primary text-xs font-bold uppercase tracking-widest flex items-center gap-2 group-hover:gap-3 transition-all" href="${b.url}" target="_blank">
                 ${new URL(b.url).hostname}
                 <span class="material-symbols-outlined text-sm">arrow_forward</span>
@@ -145,7 +158,7 @@ function renderBookmarks() {
         `;
         
         card.querySelector('.delete-btn').onclick = async () => {
-            if (confirm('Are you sure you want to remove this manuscript from the archive?')) {
+            if (confirm('Permanently remove this manuscript from the collection?')) {
                 state.bookmarks = state.bookmarks.filter(item => item.id !== b.id);
                 await updateCollection({ categories: state.categories, bookmarks: state.bookmarks });
                 renderBookmarks();
@@ -155,7 +168,6 @@ function renderBookmarks() {
         grid.appendChild(card);
     });
 
-    // Update Header Text
     document.getElementById('current-category-title').textContent = 
         state.currentCategory === 'all' ? 'The Permanent Collection' : state.currentCategory;
 }
@@ -163,17 +175,8 @@ function renderBookmarks() {
 // --- App Initialization ---
 
 async function init() {
-    setStatus('Synchronizing library...');
-    const data = await fetchCollection();
-    
-    if (data && data.bookmarks) {
-        state.bookmarks = data.bookmarks;
-        state.categories = data.categories || [];
-        setStatus('Ready.');
-    } else {
-        setStatus('Library is empty.');
-        state.bookmarks = [];
-    }
+    // 1. Fetch from cloud immediately
+    await fetchCollection();
     
     renderCategories();
     renderBookmarks();
@@ -188,6 +191,12 @@ async function init() {
 
     document.getElementById('search-input').oninput = (e) => {
         state.searchQuery = e.target.value;
+        renderBookmarks();
+    };
+
+    document.getElementById('refresh-btn').onclick = async () => {
+        await fetchCollection();
+        renderCategories();
         renderBookmarks();
     };
 
@@ -224,11 +233,11 @@ async function init() {
         document.getElementById('bookmark-form').reset();
     };
 
-    // Data Upload Logic
+    // Improved Data Import Logic
     document.getElementById('upload-data-btn').onclick = async () => {
-        if (confirm('This will overwrite current cloud data with the local bookmarks file. Proceed?')) {
+        if (confirm('Overwrite cloud archive with local JSON data? This cannot be undone.')) {
             try {
-                const response = await fetch('/initial_data.json');
+                const response = await fetch('initial_data.json');
                 const initialData = await response.json();
                 
                 state.bookmarks = initialData.bookmarks;
@@ -237,10 +246,10 @@ async function init() {
                 await updateCollection({ categories: state.categories, bookmarks: state.bookmarks });
                 renderCategories();
                 renderBookmarks();
-                alert('Library successfully migrated to cloud.');
+                alert('Success: Archive updated with local data.');
             } catch (err) {
                 console.error(err);
-                alert('Migration failed. Ensure src/initial_data.json exists.');
+                alert('Import failed. Please ensure the local build is correct.');
             }
         }
     };
