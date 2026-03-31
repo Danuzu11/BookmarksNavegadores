@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemaps (if you have one)
+# Sitemap: https://danuzu11.github.io/BookmarksNavegadores/sitemap.xml
